@@ -1,0 +1,1 @@
+sc.range(1,100).map(i=>(i, if(i%10==0)i else i*2)).map(r=>r._1+r._2).collect()	
